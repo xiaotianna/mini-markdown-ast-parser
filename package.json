@@ -2,7 +2,6 @@
   "name": "mini-markdown-ast-parser",
   "version": "1.0.0",
   "type": "module",
-  "private": false,
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/types/src/index.d.ts",
@@ -22,10 +21,14 @@
     "README.md"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
+    "registry": "https://registry.npmjs.org/"
   },
-  "author": "lantianyu",
+  "homepage": "https://github.com/xiaotianna/mini-markdown-ast-parser",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaotianna/mini-markdown-ast-parser"
+  },
+  "author": "xiaotian",
   "license": "ISC",
   "keywords": [
     "markdown-to-ast",
